@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "logbook",
+  "version": "1.0.1",
+  "description": "Run this workflow from Codex. Analyze Claude Code session logs to generate per-project time and message reports. Breaks down usage by project and branch, groups branches under their parent project, and produces monthly + yearly markdown reports.",
+  "author": {
+    "name": "Florian Buetow"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "session-analysis",
+    "time-tracking",
+    "usage-stats",
+    "messages",
+    "reports",
+    "productivity"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Logbook",
+        "shortDescription": "Run this workflow from Codex. Analyze Claude Code session logs to generate per-project time and…",
+        "longDescription": "Run this workflow from Codex. Analyze Claude Code session logs to generate per-project time and message reports. Breaks down usage by project and branch, groups branches under their parent project, and produces monthly + yearly markdown reports.",
+        "developerName": "Florian Buetow",
+        "category": "Productivity",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Logbook to Run this workflow from Codex. Analyze Claude Code session logs to generate per-project time and message reports…"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "appsec",
+  "version": "0.1.2",
+  "description": "Comprehensive application security toolbox for Codex. 62 skills across 8 frameworks (OWASP Top 10, OWASP API Top 10, STRIDE, PASTA, LINDDUN, MITRE ATT&CK, SANS/CWE Top 25, DREAD), red team simulation with 6 attacker personas plus consolidator, and interactive security education.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "appsec",
+    "threat-modeling",
+    "STRIDE",
+    "OWASP",
+    "red-team",
+    "PASTA",
+    "LINDDUN",
+    "MITRE-ATT&CK",
+    "DREAD"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "AppSec",
+        "shortDescription": "Comprehensive application security toolbox for Codex. 62 skills across 8 frameworks (OWASP Top…",
+        "longDescription": "Comprehensive application security toolbox for Codex. 62 skills across 8 frameworks (OWASP Top 10, OWASP API Top 10, STRIDE, PASTA, LINDDUN, MITRE ATT&CK, SANS/CWE Top 25, DREAD), red team simulation with 6 attacker personas plus consolidator, and interactive security education.",
+        "developerName": "Florian Buetow",
+        "category": "Security",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use AppSec to Comprehensive application security toolbox for Codex. 62 skills across 8 frameworks (OWASP Top 10, OWASP API Top…"
+        ]
+      },
+      "hooks": "./hooks/hooks.json"
+    }
+  }
+}

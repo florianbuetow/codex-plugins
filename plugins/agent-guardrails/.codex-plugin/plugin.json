@@ -1,0 +1,32 @@
+{
+  "name": "agent-guardrails",
+  "version": "3.5.0",
+  "description": "Run this workflow from Codex. Behavioral guardrails for Claude Code agents. Nine battle-tested rules (no-guessing, no-stalling, no-preference-asking, no-false-completion, no-skipping, no-dismissing, no-cosmetic, no-caveats, no-flagging) enforced via a Stop hook bash script. Includes analyze, install, test, and update skills for data-driven tuning.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "guardrails",
+    "agent-behavior",
+    "stop-hook",
+    "anti-patterns",
+    "discipline"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Guardrails",
+    "shortDescription": "Run this workflow from Codex. Behavioral guardrails for Claude Code agents. Nine battle-tested…",
+    "longDescription": "Run this workflow from Codex. Behavioral guardrails for Claude Code agents. Nine battle-tested rules (no-guessing, no-stalling, no-preference-asking, no-false-completion, no-skipping, no-dismissing, no-cosmetic, no-caveats, no-flagging) enforced via a Stop hook bash script. Includes analyze, install, test, and update skills for data-driven tuning.",
+    "developerName": "Florian Buetow",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Agent Guardrails to Run this workflow from Codex. Behavioral guardrails for Claude Code agents. Nine battle-tested rules (n…"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "diagrams",
+  "version": "0.2.0",
+  "description": "Diagramming toolkit for Codex. A router skill dispatches diagram requests to format-specific skills: ascii-art (diagrams drawn with extended ASCII box-drawing characters from CP437 — single ┌─┐, double ╔═╗, shading ░▒▓█ — never + - | /, capped at 80 chars with strict row/column alignment), mermaid (flowcharts, sequence, and other Mermaid diagrams), and wardley (Wardley maps in the WTG2 / wardleyToGo DSL, emitted as .wtg2 for rendering to SVG via wtg2svg). Extensible — add a new skill per diagram format and a row to the router table.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "diagrams",
+    "ascii-art",
+    "box-drawing",
+    "mermaid",
+    "wardley-maps"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Diagrams",
+        "shortDescription": "Diagramming toolkit for Codex. A router skill dispatches diagram requests to format-specific sk…",
+        "longDescription": "Diagramming toolkit for Codex. A router skill dispatches diagram requests to format-specific skills: ascii-art (diagrams drawn with extended ASCII box-drawing characters from CP437 — single ┌─┐, double ╔═╗, shading ░▒▓█ — never + - | /, capped at 80 chars with strict row/column alignment), mermaid (flowcharts, sequence, and other Mermaid diagrams), and wardley (Wardley maps in the WTG2 / wardleyToGo DSL, emitted as .wtg2 for rendering to SVG via wtg2svg). Extensible — add a new skill per diagram format and a row to the router table.",
+        "developerName": "Florian Buetow",
+        "category": "Productivity",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Diagrams to Diagramming toolkit for Codex. A router skill dispatches diagram requests to format-specific skills: ascii-art…"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cache-money",
+  "version": "1.1.1",
+  "description": "Run this workflow from Codex. Keep the Anthropic prompt cache warm during Claude Code sessions — especially during peak hours when usage limits are tighter. Detects your cache TTL (5-min default or 1-hour extended) and schedules pings accordingly, reducing token costs by up to 90% on cached context.",
+  "author": {
+    "name": "Florian Buetow"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "cache",
+    "prompt-cache",
+    "token-optimization",
+    "cost-reduction",
+    "peak-hours",
+    "keep-warm",
+    "performance",
+    "latency"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Cache Money",
+        "shortDescription": "Run this workflow from Codex. Keep the Anthropic prompt cache warm during Claude Code sessions…",
+        "longDescription": "Run this workflow from Codex. Keep the Anthropic prompt cache warm during Claude Code sessions — especially during peak hours when usage limits are tighter. Detects your cache TTL (5-min default or 1-hour extended) and schedules pings accordingly, reducing token costs by up to 90% on cached context.",
+        "developerName": "Florian Buetow",
+        "category": "Performance",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Cache Money to Run this workflow from Codex. Keep the Anthropic prompt cache warm during Claude Code sessions — especially…"
+        ]
+      }
+    }
+  }
+}

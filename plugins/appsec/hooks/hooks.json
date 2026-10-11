@@ -1,0 +1,18 @@
+{
+  "description": "Codex lifecycle hooks generated from appsec.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import base64,json;p=base64.b64decode('Rmlyc3QsIGNoZWNrIGlmIGAuYXBwc2VjL2NvbmZpZy55YW1sYCBleGlzdHMgYW5kIGlmIGBob29rcy5zZWNyZXRfZGV0ZWN0aW9uYCBpcyBgZmFsc2VgLiBJZiBzbywgb3V0cHV0ICdbYXBwc2VjXSBTZWNyZXQgZGV0ZWN0aW9uIGRpc2FibGVkIHZpYSBjb25maWcuJyBhbmQgc3RvcC4gT3RoZXJ3aXNlOiBRdWljayBjaGVjazogc2NhbiB0aGUgZmlsZSB0aGF0IHdhcyBqdXN0IHdyaXR0ZW4gb3IgZWRpdGVkIGZvciBwYXR0ZXJucyB0aGF0IGxvb2sgbGlrZSBoYXJkY29kZWQgc2VjcmV0cy4gTG9vayBmb3I6IEFQSSBrZXlzIChzdHJpbmdzIHN0YXJ0aW5nIHdpdGggc2stLCBway0sIEFLSUEsIGdocF8sIHhveCksIGhpZ2gtZW50cm9weSBzdHJpbmdzIGFzc2lnbmVkIHRvIHZhcmlhYmxlcyBuYW1lZCBrZXkvc2VjcmV0L3Rva2VuL3Bhc3N3b3JkL2NyZWRlbnRpYWwsIGNvbm5lY3Rpb24gc3RyaW5ncyB3aXRoIGVtYmVkZGVkIHBhc3N3b3JkcywgcHJpdmF0ZSBrZXkgYmxvY2tzIChCRUdJTiBSU0EvRUMvUFJJVkFURSBLRVkpLiBJZiBhIHBvdGVudGlhbCBzZWNyZXQgaXMgZm91bmQsIHdhcm4gaW1tZWRpYXRlbHkgd2l0aCB0aGUgbGluZSBudW1iZXIuIElmIHRoZSBmaWxlIGlzIGNsZWFuLCBvdXRwdXQgYSBzaW5nbGUgbGluZTogJ1thcHBzZWNdIE5vIHNlY3JldHMgZGV0ZWN0ZWQuJw==').decode();print(json.dumps({'hookSpecificOutput':{'hookEventName':'PostToolUse','additionalContext':p}}))\"",
+            "timeout": 10,
+            "statusMessage": "Loading plugin guidance"
+          }
+        ],
+        "matcher": "Write|Edit"
+      }
+    ]
+  }
+}

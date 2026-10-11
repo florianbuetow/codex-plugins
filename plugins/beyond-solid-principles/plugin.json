@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "beyond-solid-principles",
+  "version": "1.0.1",
+  "description": "Analyze code and architecture for violations of ten system-level software design principles: Separation of Concerns, Single Responsibility (system-level), DRY, Law of Demeter, Loose Coupling / High Cohesion, Evolvability, Resilience, KISS, Principle of Least Surprise, and YAGNI",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "architecture",
+    "design-principles",
+    "code-review",
+    "coupling",
+    "cohesion",
+    "resilience",
+    "dry",
+    "kiss",
+    "yagni"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Beyond Solid Principles",
+        "shortDescription": "Analyze code and architecture for violations of ten system-level software design principles: Se…",
+        "longDescription": "Analyze code and architecture for violations of ten system-level software design principles: Separation of Concerns, Single Responsibility (system-level), DRY, Law of Demeter, Loose Coupling / High Cohesion, Evolvability, Resilience, KISS, Principle of Least Surprise, and YAGNI",
+        "developerName": "Florian Buetow",
+        "category": "Development",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Beyond Solid Principles to Analyze code and architecture for violations of ten system-level software design principles: Sep…"
+        ]
+      }
+    }
+  }
+}

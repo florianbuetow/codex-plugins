@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "claudeignore",
+  "version": "0.1.1",
+  "description": "Run this workflow from Codex. Generate and maintain .claudeignore files for Claude Code projects. Analyzes repository structure to identify directories that waste context tokens (caches, build artifacts, large non-source directories) and produces a categorized .claudeignore file.",
+  "author": {
+    "name": "Florian Buetow"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "claudeignore",
+    "context",
+    "optimization",
+    "tokens",
+    "configuration"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Claudeignore",
+        "shortDescription": "Run this workflow from Codex. Generate and maintain .claudeignore files for Claude Code project…",
+        "longDescription": "Run this workflow from Codex. Generate and maintain .claudeignore files for Claude Code projects. Analyzes repository structure to identify directories that waste context tokens (caches, build artifacts, large non-source directories) and produces a categorized .claudeignore file.",
+        "developerName": "Florian Buetow",
+        "category": "Productivity",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Claudeignore to Run this workflow from Codex. Generate and maintain .claudeignore files for Claude Code projects. Analyzes…"
+        ]
+      }
+    }
+  }
+}

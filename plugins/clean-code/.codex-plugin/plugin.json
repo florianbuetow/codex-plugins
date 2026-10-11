@@ -1,0 +1,37 @@
+{
+  "name": "clean-code",
+  "version": "0.2.2",
+  "description": "Analyze source code against Robert C. Martin's Clean Code across nine dimensions: Meaningful Names, Functions, Comments, Formatting, Objects & Data Structures, Error Handling, Boundaries, Unit Tests (F.I.R.S.T.), and Concurrency. Reports structured, actionable findings rated HIGH / MEDIUM / LOW, each with a code location, a verified book reference, the issue, and a concrete refactoring step. A book reference is quoted verbatim from the bundled Chapter 17 registry - a real heuristic code (G30, N5, C3) where the catalog defines one, otherwise a canonical chapter rule (Ch.7: Don't Ignore Caught Errors) - never a synthesised identifier. Findings route by the smallest refactoring edit that resolves them; class, system and architecture concerns are out of scope. Self-contained: the skill and its references bundle everything it uses.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "clean-code",
+    "uncle-bob",
+    "code-quality",
+    "code-review",
+    "code-smells",
+    "heuristics",
+    "naming",
+    "refactoring",
+    "readability",
+    "maintainability"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Clean Code",
+    "shortDescription": "Analyze source code against Robert C. Martin's Clean Code across nine dimensions: Meaningful Na…",
+    "longDescription": "Analyze source code against Robert C. Martin's Clean Code across nine dimensions: Meaningful Names, Functions, Comments, Formatting, Objects & Data Structures, Error Handling, Boundaries, Unit Tests (F.I.R.S.T.), and Concurrency. Reports structured, actionable findings rated HIGH / MEDIUM / LOW, each with a code location, a verified book reference, the issue, and a concrete refactoring step. A book reference is quoted verbatim from the bundled Chapter 17 registry - a real heuristic code (G30, N5, C3) where the catalog defines one, otherwise a canonical chapter rule (Ch.7: Don't Ignore Caught Errors) - never a synthesised identifier. Findings route by the smallest refactoring edit that resolves them; class, system and architecture concerns are out of scope. Self-contained: the skill and its references bundle everything it uses.",
+    "developerName": "Florian Buetow",
+    "category": "Development",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Clean Code to Analyze source code against Robert C. Martin's Clean Code across nine dimensions: Meaningful Names, Functions…"
+    ]
+  }
+}

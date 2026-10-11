@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "retrospective",
+  "version": "1.5.1",
+  "description": "Run this workflow from Codex. Analyze Claude Code session logs to identify what went well, what didn't, and how to improve developer-AI collaboration. Suggests new skills, subagents, slash commands, hooks, and workflow optimizations based on actual usage patterns.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "retrospective",
+    "workflow",
+    "session-analysis",
+    "skills",
+    "subagents",
+    "slash-commands",
+    "automation",
+    "productivity",
+    "collaboration"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Retrospective",
+        "shortDescription": "Run this workflow from Codex. Analyze Claude Code session logs to identify what went well, what…",
+        "longDescription": "Run this workflow from Codex. Analyze Claude Code session logs to identify what went well, what didn't, and how to improve developer-AI collaboration. Suggests new skills, subagents, slash commands, hooks, and workflow optimizations based on actual usage patterns.",
+        "developerName": "Florian Buetow",
+        "category": "Development",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Retrospective to Run this workflow from Codex. Analyze Claude Code session logs to identify what went well, what didn't, an…"
+        ]
+      }
+    }
+  }
+}

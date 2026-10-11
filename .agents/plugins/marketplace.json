@@ -1,0 +1,428 @@
+{
+  "name": "florianbuetow-codex-plugins",
+  "interface": {
+    "displayName": "Florian Buetow Codex Plugins"
+  },
+  "plugins": [
+    {
+      "name": "solid-principles",
+      "source": {
+        "source": "local",
+        "path": "./plugins/solid-principles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "beyond-solid-principles",
+      "source": {
+        "source": "local",
+        "path": "./plugins/beyond-solid-principles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "archibald",
+      "source": {
+        "source": "local",
+        "path": "./plugins/archibald"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "spec-writer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/spec-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "spec-dd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/spec-dd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "explain-system-tradeoffs",
+      "source": {
+        "source": "local",
+        "path": "./plugins/explain-system-tradeoffs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "kiss",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kiss"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "appsec",
+      "source": {
+        "source": "local",
+        "path": "./plugins/appsec"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
+      "name": "retrospective",
+      "source": {
+        "source": "local",
+        "path": "./plugins/retrospective"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "onboarding",
+      "source": {
+        "source": "local",
+        "path": "./plugins/onboarding"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "iso27001-sdlc",
+      "source": {
+        "source": "local",
+        "path": "./plugins/iso27001-sdlc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
+      "name": "cache-money",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cache-money"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Performance"
+    },
+    {
+      "name": "logbook",
+      "source": {
+        "source": "local",
+        "path": "./plugins/logbook"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "changelog",
+      "source": {
+        "source": "local",
+        "path": "./plugins/changelog"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "agent-guardrails",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-guardrails"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "fixclaude",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fixclaude"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "sessionlog",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sessionlog"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "context-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/context-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "tokeneconomics",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tokeneconomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Performance"
+    },
+    {
+      "name": "orchestrator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/orchestrator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "progressive-disclosure",
+      "source": {
+        "source": "local",
+        "path": "./plugins/progressive-disclosure"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "handoff",
+      "source": {
+        "source": "local",
+        "path": "./plugins/handoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "claudeignore",
+      "source": {
+        "source": "local",
+        "path": "./plugins/claudeignore"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "gitignore",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gitignore"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "guard",
+      "source": {
+        "source": "local",
+        "path": "./plugins/guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "terminator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/terminator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "diagrams",
+      "source": {
+        "source": "local",
+        "path": "./plugins/diagrams"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "communicator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/communicator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "codebasescout",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codebasescout"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "arc42",
+      "source": {
+        "source": "local",
+        "path": "./plugins/arc42"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "clean-code",
+      "source": {
+        "source": "local",
+        "path": "./plugins/clean-code"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "intent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/intent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "resume",
+      "source": {
+        "source": "local",
+        "path": "./plugins/resume"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "betterskills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/betterskills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "animation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/animation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

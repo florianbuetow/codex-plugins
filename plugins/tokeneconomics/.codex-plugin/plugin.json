@@ -1,0 +1,33 @@
+{
+  "name": "tokeneconomics",
+  "version": "0.1.1",
+  "description": "Run this workflow from Codex. Analyze Claude Code session token usage to flag waste risks and cost optimization opportunities. Reviews per-message token data including cache efficiency, conversation sprawl, model selection, and estimated costs across projects.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "token-usage",
+    "cost-optimization",
+    "session-analysis",
+    "cache-efficiency",
+    "token-economics",
+    "usage-limits"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Tokeneconomics",
+    "shortDescription": "Run this workflow from Codex. Analyze Claude Code session token usage to flag waste risks and c…",
+    "longDescription": "Run this workflow from Codex. Analyze Claude Code session token usage to flag waste risks and cost optimization opportunities. Reviews per-message token data including cache efficiency, conversation sprawl, model selection, and estimated costs across projects.",
+    "developerName": "Florian Buetow",
+    "category": "Performance",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Tokeneconomics to Run this workflow from Codex. Analyze Claude Code session token usage to flag waste risks and cost optimi…"
+    ]
+  }
+}

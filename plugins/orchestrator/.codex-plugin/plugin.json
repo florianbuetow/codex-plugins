@@ -1,0 +1,31 @@
+{
+  "name": "orchestrator",
+  "version": "0.2.1",
+  "description": "Produces evidence-based model routing plans: maps each task unit to the best-suited AI model (Codex, GPT, Gemini, open-weight) using a 30-category task taxonomy, decision rules, and per-unit rationale, context briefing, and failure-mode warnings.",
+  "author": {
+    "name": "Florian Buetow"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "model-routing",
+    "orchestration",
+    "task-mapping",
+    "multi-model",
+    "agent-team"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Orchestrator",
+    "shortDescription": "Produces evidence-based model routing plans: maps each task unit to the best-suited AI model (C…",
+    "longDescription": "Produces evidence-based model routing plans: maps each task unit to the best-suited AI model (Codex, GPT, Gemini, open-weight) using a 30-category task taxonomy, decision rules, and per-unit rationale, context briefing, and failure-mode warnings.",
+    "developerName": "Florian Buetow",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Orchestrator to Produces evidence-based model routing plans: maps each task unit to the best-suited AI model (Codex, GPT, G…"
+    ]
+  }
+}

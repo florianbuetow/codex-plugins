@@ -1,0 +1,31 @@
+{
+  "name": "handoff",
+  "version": "0.1.1",
+  "description": "Session handoff and continuation for Codex. Compact conversations into structured handoff documents for task continuity, then find and resume prior handoffs with full context recovery.",
+  "author": {
+    "name": "Florian Buetow"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "handoff",
+    "session",
+    "context",
+    "continuation",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Handoff",
+    "shortDescription": "Session handoff and continuation for Codex. Compact conversations into structured handoff docum…",
+    "longDescription": "Session handoff and continuation for Codex. Compact conversations into structured handoff documents for task continuity, then find and resume prior handoffs with full context recovery.",
+    "developerName": "Florian Buetow",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Handoff to Session handoff and continuation for Codex. Compact conversations into structured handoff documents for task con…"
+    ]
+  }
+}

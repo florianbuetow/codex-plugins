@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "kiss",
+  "version": "1.0.1",
+  "description": "Analyze code and architecture for unnecessary complexity, over-abstraction, and redundancy. Reports findings with severity ratings and concrete simplification suggestions without modifying code.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "kiss",
+    "simplicity",
+    "complexity",
+    "code-review",
+    "architecture"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Kiss",
+        "shortDescription": "Analyze code and architecture for unnecessary complexity, over-abstraction, and redundancy. Rep…",
+        "longDescription": "Analyze code and architecture for unnecessary complexity, over-abstraction, and redundancy. Reports findings with severity ratings and concrete simplification suggestions without modifying code.",
+        "developerName": "Florian Buetow",
+        "category": "Development",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Kiss to Analyze code and architecture for unnecessary complexity, over-abstraction, and redundancy. Reports findings with s…"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gitignore",
+  "version": "0.1.0",
+  "description": "Create and maintain .gitignore files from a curated, conservative template library. Adds user-specified entries by default, or composes OS-specific (macOS, Windows, Linux) and language-specific (Node.js, Python, Java, Kotlin, C, Go, Elixir) sections without hiding lockfiles, manifests, or other legitimately versioned files.",
+  "author": {
+    "name": "Florian Buetow"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "gitignore",
+    "git",
+    "templates",
+    "repository",
+    "configuration"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Gitignore",
+        "shortDescription": "Create and maintain .gitignore files from a curated, conservative template library. Adds user-s…",
+        "longDescription": "Create and maintain .gitignore files from a curated, conservative template library. Adds user-specified entries by default, or composes OS-specific (macOS, Windows, Linux) and language-specific (Node.js, Python, Java, Kotlin, C, Go, Elixir) sections without hiding lockfiles, manifests, or other legitimately versioned files.",
+        "developerName": "Florian Buetow",
+        "category": "Productivity",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Gitignore to Create and maintain .gitignore files from a curated, conservative template library. Adds user-specified entrie…"
+        ]
+      }
+    }
+  }
+}

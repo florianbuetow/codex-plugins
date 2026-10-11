@@ -1,0 +1,33 @@
+{
+  "name": "onboarding",
+  "version": "1.0.2",
+  "description": "Project onboarding skill that orients AI agents by gathering context from project instructions, git state, issue trackers, and build systems to produce a concise status briefing with suggested next steps.",
+  "author": {
+    "name": "Florian Buetow"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "onboarding",
+    "project-context",
+    "session-start",
+    "status-briefing",
+    "git-status",
+    "issue-tracker",
+    "orientation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Onboarding",
+    "shortDescription": "Project onboarding skill that orients AI agents by gathering context from project instructions…",
+    "longDescription": "Project onboarding skill that orients AI agents by gathering context from project instructions, git state, issue trackers, and build systems to produce a concise status briefing with suggested next steps.",
+    "developerName": "Florian Buetow",
+    "category": "Development",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Onboarding to Project onboarding skill that orients AI agents by gathering context from project instructions, git state, is…"
+    ]
+  }
+}

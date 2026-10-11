@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "iso27001-sdlc",
+  "version": "1.0.1",
+  "description": "Scan a software repository for ISO 27001:2022 compliance of its software development controls (Annex A 8.4, 8.25–8.33). Produces a per-control compliance gap report covering source code access, secure SDLC, application security requirements, secure architecture, secure coding, security testing, outsourced development, environment separation, change management, and test data.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "iso27001",
+    "compliance",
+    "sdlc",
+    "security",
+    "audit",
+    "annex-a"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ISO 27001 Sdlc",
+        "shortDescription": "Scan a software repository for ISO 27001:2022 compliance of its software development controls (…",
+        "longDescription": "Scan a software repository for ISO 27001:2022 compliance of its software development controls (Annex A 8.4, 8.25–8.33). Produces a per-control compliance gap report covering source code access, secure SDLC, application security requirements, secure architecture, secure coding, security testing, outsourced development, environment separation, change management, and test data.",
+        "developerName": "Florian Buetow",
+        "category": "Security",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use ISO 27001 Sdlc to Scan a software repository for ISO 27001:2022 compliance of its software development controls (Annex A 8…"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fixclaude",
+  "version": "0.1.1",
+  "description": "Run this workflow from Codex. Reverse the built-in Claude Code limitations discovered in the source code leak. Installs production-grade agent directives that override verification gates, context decay, brevity mandates, and silent truncation — the same fixes Anthropic uses internally.",
+  "author": {
+    "name": "Florian Buetow"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "fix",
+    "claude-md",
+    "agent-directives",
+    "context-decay",
+    "verification",
+    "source-leak",
+    "performance",
+    "override"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Fixclaude",
+        "shortDescription": "Run this workflow from Codex. Reverse the built-in Claude Code limitations discovered in the so…",
+        "longDescription": "Run this workflow from Codex. Reverse the built-in Claude Code limitations discovered in the source code leak. Installs production-grade agent directives that override verification gates, context decay, brevity mandates, and silent truncation — the same fixes Anthropic uses internally.",
+        "developerName": "Florian Buetow",
+        "category": "Productivity",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Fixclaude to Run this workflow from Codex. Reverse the built-in Claude Code limitations discovered in the source code leak…"
+        ]
+      }
+    }
+  }
+}

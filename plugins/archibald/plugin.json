@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "archibald",
+  "version": "1.0.1",
+  "description": "Software architecture quality assessment through structural smell detection, quantitative metrics analysis, antipattern identification, dependency structure evaluation, risk/trade-off analysis, and technical debt measurement. Complements SOLID and beyond-SOLID principle checks with architecture-level health diagnostics.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "architecture",
+    "quality-assessment",
+    "architectural-smells",
+    "antipatterns",
+    "coupling",
+    "cohesion",
+    "complexity",
+    "dependency-structure",
+    "technical-debt",
+    "dsm",
+    "metrics"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Archibald",
+        "shortDescription": "Software architecture quality assessment through structural smell detection, quantitative metri…",
+        "longDescription": "Software architecture quality assessment through structural smell detection, quantitative metrics analysis, antipattern identification, dependency structure evaluation, risk/trade-off analysis, and technical debt measurement. Complements SOLID and beyond-SOLID principle checks with architecture-level health diagnostics.",
+        "developerName": "Florian Buetow",
+        "category": "Development",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Archibald to Software architecture quality assessment through structural smell detection, quantitative metrics analysis, an…"
+        ]
+      }
+    }
+  }
+}

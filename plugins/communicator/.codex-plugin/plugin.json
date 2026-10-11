@@ -1,0 +1,32 @@
+{
+  "name": "communicator",
+  "version": "0.1.2",
+  "description": "Communication-style toolkit for Codex. The tldr skill switches Codex into a military-style BLUF (Bottom Line Up Front) mode: extreme brevity, conclusion first, bullets over prose, runnable commands in code blocks, and ruthless cutting of filler, preambles, and hand-holding. Fires on \"tldr\", \"short mode\", or \"be brief\".",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "communication",
+    "brevity",
+    "bluf",
+    "tldr",
+    "concise"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Communicator",
+    "shortDescription": "Communication-style toolkit for Codex. The tldr skill switches Codex into a military-style BLUF…",
+    "longDescription": "Communication-style toolkit for Codex. The tldr skill switches Codex into a military-style BLUF (Bottom Line Up Front) mode: extreme brevity, conclusion first, bullets over prose, runnable commands in code blocks, and ruthless cutting of filler, preambles, and hand-holding. Fires on \"tldr\", \"short mode\", or \"be brief\".",
+    "developerName": "Florian Buetow",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Communicator to Communication-style toolkit for Codex. The tldr skill switches Codex into a military-style BLUF (Bottom Lin…"
+    ]
+  }
+}

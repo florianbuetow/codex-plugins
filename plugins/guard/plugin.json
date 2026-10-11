@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "guard",
+  "version": "0.1.0",
+  "description": "Helper skill for the `guard` CLI (https://github.com/florianbuetow/guard), a file-permission tool that protects files from accidental modification by AI agents via immutable flags and root ownership. Composes guard commands for five intents — init, create-collection, remove-collection, clear-all, info — running registry operations directly and printing `sudo guard` commands for operations that need root.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "guard",
+    "file-permissions",
+    "ai-safety",
+    "immutable",
+    "schg"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Guard",
+        "shortDescription": "Helper skill for the `guard` CLI (https://github.com/florianbuetow/guard), a file-permission to…",
+        "longDescription": "Helper skill for the `guard` CLI (https://github.com/florianbuetow/guard), a file-permission tool that protects files from accidental modification by AI agents via immutable flags and root ownership. Composes guard commands for five intents — init, create-collection, remove-collection, clear-all, info — running registry operations directly and printing `sudo guard` commands for operations that need root.",
+        "developerName": "Florian Buetow",
+        "category": "Development",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Guard to Helper skill for the `guard` CLI (https://github.com/florianbuetow/guard), a file-permission tool that protects fi…"
+        ]
+      }
+    }
+  }
+}

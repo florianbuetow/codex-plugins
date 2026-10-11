@@ -1,0 +1,40 @@
+{
+  "name": "spec-dd",
+  "version": "1.2.0",
+  "description": "Specification-driven development workflow skill. Orchestrates a spec-first discipline: frame a one-page Product Spec (problem, falsifiable bet, success criteria, evaluation) that replaces the PRD, then write behavioral specifications, derive test scenarios, plan implementation, and verify alignment across all artifacts and code. Acts as a workflow navigator with advisory quality gates between phases.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "specification",
+    "spec-driven",
+    "product-spec",
+    "prd",
+    "falsifiable-bet",
+    "behavioral-testing",
+    "test-specification",
+    "implementation-specification",
+    "quality-gates",
+    "workflow",
+    "sdd",
+    "bdd",
+    "tdd"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Spec Dd",
+    "shortDescription": "Specification-driven development workflow skill. Orchestrates a spec-first discipline: frame a…",
+    "longDescription": "Specification-driven development workflow skill. Orchestrates a spec-first discipline: frame a one-page Product Spec (problem, falsifiable bet, success criteria, evaluation) that replaces the PRD, then write behavioral specifications, derive test scenarios, plan implementation, and verify alignment across all artifacts and code. Acts as a workflow navigator with advisory quality gates between phases.",
+    "developerName": "Florian Buetow",
+    "category": "Development",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Spec Dd to Specification-driven development workflow skill. Orchestrates a spec-first discipline: frame a one-page Product…"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "sessionlog",
+  "version": "0.0.5",
+  "description": "Run this workflow from Codex. Export Claude Code session logs as standard LLM conversation JSON and human-readable TXT. Compact sessions into resumable context files. Recap recent sessions for quick context recovery. Identify current session, export individual sessions, or batch-export all sessions for a project.",
+  "author": {
+    "name": "Florian Buetow"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "session-log",
+    "export",
+    "conversation",
+    "jsonl",
+    "llm-format"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sessionlog",
+    "shortDescription": "Run this workflow from Codex. Export Claude Code session logs as standard LLM conversation JSON…",
+    "longDescription": "Run this workflow from Codex. Export Claude Code session logs as standard LLM conversation JSON and human-readable TXT. Compact sessions into resumable context files. Recap recent sessions for quick context recovery. Identify current session, export individual sessions, or batch-export all sessions for a project.",
+    "developerName": "Florian Buetow",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Sessionlog to Run this workflow from Codex. Export Claude Code session logs as standard LLM conversation JSON and human-rea…"
+    ]
+  }
+}

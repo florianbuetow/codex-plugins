@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "intent",
+  "version": "0.2.0",
+  "description": "Intent-based task resolution. When stuck, facing ambiguity, or about to ask a clarifying question, first recover the task's underlying intent from available context - the latest prompt, earlier prompts, project goals, plans, and prior corrections - then answer low-risk questions from that intent and make intent-aligned decisions. Escalate to the user only when the ambiguity is material and cannot be resolved from context; and when neither the intent nor a safe default can be inferred at all, an escape hatch stops and names the gap rather than fabricating an answer.",
+  "author": {
+    "name": "Florian Buetow",
+    "email": "2320560+florianbuetow@users.noreply.github.com"
+  },
+  "repository": "https://github.com/florianbuetow/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "intent",
+    "task-resolution",
+    "decision-making",
+    "ambiguity",
+    "clarification",
+    "context-inference"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Intent",
+        "shortDescription": "Intent-based task resolution. When stuck, facing ambiguity, or about to ask a clarifying questi…",
+        "longDescription": "Intent-based task resolution. When stuck, facing ambiguity, or about to ask a clarifying question, first recover the task's underlying intent from available context - the latest prompt, earlier prompts, project goals, plans, and prior corrections - then answer low-risk questions from that intent and make intent-aligned decisions. Escalate to the user only when the ambiguity is material and cannot be resolved from context; and when neither the intent nor a safe default can be inferred at all, an escape hatch stops and names the gap rather than fabricating an answer.",
+        "developerName": "Florian Buetow",
+        "category": "Development",
+        "capabilities": [
+          "Skills"
+        ],
+        "defaultPrompt": [
+          "Use Intent to Intent-based task resolution. When stuck, facing ambiguity, or about to ask a clarifying question, first recover…"
+        ]
+      }
+    }
+  }
+}
